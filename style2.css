@@ -49,7 +49,7 @@ p{
 
 input::placeholder{
     text-align: center;
-    color: #000000;
+    color: var(--white);
 }
 
 a{
