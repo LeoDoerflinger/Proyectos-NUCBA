@@ -370,6 +370,44 @@ a {
 
 }
 
+@media (max-width: 460px) {
+    #form{
+        background-color: var(--black);
+        flex-direction: column;
+    }
+    
+    #form input{
+        width: 175px;
+    }
+    
+    .datos{
+        flex-direction: row;
+    }
+    
+    #form #mensaje{
+        width: 350px;
+    }
+}
+
+@media (max-width: 400px) {
+    #form{
+        background-color: var(--black);
+        flex-direction: column;
+    }
+    
+    #form input{
+        width: 175px;
+    }
+    
+    .datos{
+        flex-direction: row;
+    }
+    
+    #form #mensaje{
+        width: 350px;
+    }
+}
+
 @media (max-width: 375px) {
     .lenguajes img {
         width: 50px;
